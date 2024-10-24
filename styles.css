@@ -831,7 +831,7 @@ textarea::placeholder {
   content: url("/green-triangle.svg");
   width: 100%;
   height: auto;
-  bottom: 0px;
+  bottom: -2px;
 }
 
 .floral-bouquet-bottom {
