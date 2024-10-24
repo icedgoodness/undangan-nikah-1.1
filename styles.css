@@ -569,20 +569,30 @@ body {
 }
 
 .section6 {
-  padding: 100px 20px 100px 20px;
+  padding: 100px 40px;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-iframe {
-  width: 90%;
-  max-width: 560px;
-  height: auto;
+.iframe-container {
+  position: relative;
+  width: 85%;
+  padding-bottom: 47.81%; /* 16:9 ratio */
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+
 
 .live-stream-flower {
   content: url("/white-rose-bouquet.png");
@@ -597,6 +607,7 @@ iframe {
 
 .live-stream-box {
   display: flex;
+  width: 70%;
   flex-direction: column;
   background-color: #eff2ce;
   padding: 50px 20px 50px 20px;

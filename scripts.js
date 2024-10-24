@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         coverPage.style.display = "none";
         hiddenContent.style.visibility = "visible"; // Show content once animation is done
         backgroundMusic.play(); // Play the background music
+        backgroundMusic.loop = true;
         hiddenContent.style.height = "100vH";
       },
       { once: true }
