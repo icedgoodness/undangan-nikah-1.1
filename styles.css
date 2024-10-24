@@ -214,6 +214,13 @@ body {
   color: #ffff;
 }
 
+.scroll-down-arrow{
+  position: absolute;
+  bottom: 15px;
+  width: 20px;
+  height: auto;
+  content: url("/scroll-down-arrow.gif");
+}
 .section1-text.active {
   animation: fadeInText 1s ease-in-out forwards;
   animation-delay: 0.5s;
@@ -590,6 +597,7 @@ body {
   height: 100%;
   border: none;
   border-radius: 8px;
+  background-color: #000;
 }
 
 
