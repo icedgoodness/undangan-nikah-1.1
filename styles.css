@@ -480,12 +480,13 @@ body {
 .section4 {
   width: 100%;
   height: auto;
-  padding: 100px 0 530px 0;
+  padding: 250px 0 250px 0;
   justify-content: center;
   align-items: center;
   position: relative;
   flex: 1;
   background-color: #fffdee;
+  margin-bottom: 100px;
 }
 
 .section4-bg {
@@ -551,8 +552,9 @@ body {
 .section5 {
   width: 100%;
   height: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
