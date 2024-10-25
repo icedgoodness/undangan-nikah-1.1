@@ -46,6 +46,14 @@ p2 {
   font-weight: normal;
   font-size: 32x;
 }
+
+p3{
+  font-family: "Playfair Display", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+
 html {
   background-color: #fffdee;
 }
@@ -193,12 +201,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/bg-green.svg");
+  background-position: center;
   z-index: 1;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
 .section1-text {
@@ -247,12 +256,13 @@ body {
   width: 100%;
   height: auto;
   top: -2px;
+  z-index: 0;
 }
 
 .section2-text {
   flex: 1;
-  margin: 80px 50px 40px 50px;
-  padding: 100px 30px 100px 30px;
+  top: 0px;
+  padding: 140px 80px 140px 80px;
   position: relative;
   justify-content: center;
   z-index: 3;
@@ -267,7 +277,7 @@ body {
 
 .section2-text2 {
   margin: 40px 50px 40px 50px;
-  padding: 100px 30px 40px 30px;
+  padding: 80px 30px 40px 30px;
   position: relative;
   justify-content: center;
   z-index: 3;
@@ -277,10 +287,11 @@ body {
 
 .cloud1 {
   position: absolute;
-  top: 100px;
+  top: 340px;
   width: 200px; /* Adjust as needed */
   height: 100px; /* Adjust as needed */
-  background-image: url("/cloud-right.png"); /* Path to your cloud image */
+  background-image: url("/cloud-left.png"); /* Path to your cloud image */
+  transform: scaleX(-1);
   animation: moveClouds 20s linear infinite;
   background-repeat: no-repeat;
   z-index: 1;
@@ -295,7 +306,7 @@ body {
   background-image: url("/cloud-left.png"); /* Path to your cloud image */
   animation: moveClouds2 20s linear infinite;
   background-repeat: no-repeat;
-  z-index: 2;
+  z-index: 1;
   background-size: contain;
 }
 
@@ -332,7 +343,7 @@ body {
   flex-direction: column;
   position: relative;
   margin: 20px 0 20px 0;
-  padding-bottom: 100px;
+  padding-bottom: 170px;
   background-color: #fffdee;
 }
 
@@ -344,7 +355,7 @@ body {
   position: relative;
 }
 .bride-photo {
-  background-image: url("/ais-prof.jpg");
+  background-image: url("/ais-prof.png");
   background-size: 190px;
   position: absolute;
   background-position: center;
@@ -366,7 +377,7 @@ body {
 .bride-flower2 {
   content: url("/upper-floral.png");
   display: block;
-  width: 60px;
+  width: 100px;
   height: auto;
   position: absolute;
   margin-left: -150px;
@@ -410,7 +421,7 @@ body {
   position: relative;
 }
 .groom-photo {
-  background-image: url("/indra-prof.jpg");
+  background-image: url("/indra-prof.png");
   background-size: 190px;
   position: absolute;
   background-position: center;
@@ -433,7 +444,7 @@ body {
   content: url("/upper-floral.png");
   transform: scaleX(-1);
   display: block;
-  width: 60px;
+  width: 100px;
   height: auto;
   position: absolute;
   margin-right: -150px;
@@ -469,7 +480,7 @@ body {
 .section4 {
   width: 100%;
   height: auto;
-  padding: 100px 0 400px 0;
+  padding: 100px 0 530px 0;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -497,7 +508,7 @@ body {
   background-color: rgba(217, 237, 171, 0.5); /* Example background color */
   padding: 15px;
   border-radius: 20px;
-  height: max-content;
+  height: 600px;
   width: 65%;
   top: 0px;
   bottom: 0px;
@@ -851,6 +862,7 @@ textarea::placeholder {
   width: 100%;
   height: auto;
   bottom: -2px;
+  z-index: 0;
 }
 
 .floral-bouquet-bottom {
