@@ -261,7 +261,7 @@ body {
 
 .section2-text {
   flex: 1;
-  top: 0px;
+  top: 30px;
   padding: 140px 80px 140px 80px;
   position: relative;
   justify-content: center;
